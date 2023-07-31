@@ -1,0 +1,25 @@
+.container-comments {
+    width: 100%;
+    height: 600px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container-comments::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.comment {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+}
+
+.username-cmt {
+    color: rgb(100, 100, 100, 0.8)
+}
+
+.text-cmt {
+    color: rgb(0, 0, 0, 0.7)
+}
